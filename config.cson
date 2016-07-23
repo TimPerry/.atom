@@ -1,0 +1,136 @@
+"*":
+  "atom-fuzzy-grep":
+    preserveLastSearch: true
+    showFullPath: true
+  core:
+    disabledPackages: [
+      "format-standard"
+      "notebook"
+      "vim-mode"
+      "language-babel"
+      "symbols-view"
+      "atom-ctags"
+      "quick-jump"
+      "change-case"
+    ]
+    themes: [
+      "seti-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    fontSize: 13
+  "editor-background":
+    image:
+      backgroundSize: "cover"
+      customOverlayColor: true
+      opacity: 20
+      overlayColor:
+        red: 0
+        green: 0
+        blue: 0
+        alpha: 1
+      style: ""
+      url: "/Users/perryt04/Pictures/wallpaper-black-abstract-green-web-85622.jpg"
+    other:
+      treeViewOpacity: 30
+    text:
+      opacity: 0
+  "exception-reporting":
+    userId: "4504c70a-5548-8bb2-c9f2-186ab11b8251"
+  "git-plus":
+    pullBeforePush: "pull --rebase"
+  jumpy:
+    highContrast: true
+  linter: {}
+  pigments:
+    extendAutocompleteToColorValue: true
+    extendAutocompleteToVariables: true
+    markerType: "square-dot"
+  "seti-ui":
+    displayIgnored: false
+    themeColor: "Green"
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "terminal-plus":
+    ansiColors:
+      normal:
+        blue:
+          red: 147
+          green: 178
+          blue: 202
+          alpha: 1
+        cyan:
+          red: 154
+          green: 201
+          blue: 196
+          alpha: 1
+        green:
+          red: 194
+          green: 199
+          blue: 123
+          alpha: 1
+        magenta:
+          red: 192
+          green: 167
+          blue: 199
+          alpha: 1
+        red:
+          red: 215
+          green: 124
+          blue: 121
+          alpha: 1
+        yellow:
+          red: 244
+          green: 207
+          blue: 135
+          alpha: 1
+      zBright:
+        brightBlack:
+          red: 199
+          green: 188
+          blue: 188
+          alpha: 1
+        brightBlue:
+          red: 147
+          green: 178
+          blue: 202
+          alpha: 1
+        brightCyan:
+          red: 154
+          green: 201
+          blue: 196
+          alpha: 1
+        brightGreen:
+          red: 194
+          green: 199
+          blue: 123
+          alpha: 1
+        brightMagenta:
+          red: 192
+          green: 167
+          blue: 199
+          alpha: 1
+        brightRed:
+          red: 215
+          green: 124
+          blue: 121
+          alpha: 1
+        brightYellow:
+          red: 244
+          green: 207
+          blue: 135
+          alpha: 1
+    core: {}
+    style:
+      theme: "pro"
+    toggles:
+      autoClose: true
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
