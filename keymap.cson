@@ -1,4 +1,5 @@
 '.platform-darwin atom-workspace atom-text-editor:not([mini])':
+  'f3': 'split-diff:toggle'
   'f5': 'expose:toggle'
   'f7': 'imdone-atom:tasks'
   'shift-alt-down': 'editor:move-line-down'
