@@ -13,3 +13,4 @@
   'cmd-l': 'go-to-line:toggle'
   'cmd-e': 'expand-region:expand'
   'cmd-shift-e': 'expand-region:shrink'
+  'cmd-o': 'advanced-open-file:toggle'
