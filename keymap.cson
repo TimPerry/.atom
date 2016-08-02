@@ -1,3 +1,6 @@
+'.platform-darwin atom-workspace':
+  'alt-tab': 'project-manager:list-projects'
+
 '.platform-darwin atom-workspace atom-text-editor:not([mini])':
   'f3': 'split-diff:toggle'
   'f5': 'expose:toggle'
@@ -5,7 +8,6 @@
   'shift-alt-down': 'editor:move-line-down'
   'shift-alt-up': 'editor:move-line-up'
   'f2': 'atomatigit:toggle'
-  'alt-tab': 'project-manager:list-projects'
   'cmd-g': 'fuzzy-grep:toggle'
   'cmd-j': 'jumpy:toggle'
   'cmd-u': 'case-switch:toggle'

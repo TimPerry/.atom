@@ -1,4 +1,10 @@
 "*":
+  amdbutler:
+    baseFolders: [
+      "src"
+      "webapp/static-versioned/script"
+      "webapp"
+    ]
   "atom-fuzzy-grep":
     preserveLastSearch: true
     showFullPath: true
@@ -17,8 +23,7 @@
       "seti-ui"
       "base16-tomorrow-dark-theme"
     ]
-  editor:
-    fontSize: 13
+  editor: {}
   "editor-background":
     image:
       backgroundSize: "cover"
@@ -42,11 +47,28 @@
   jumpy:
     highContrast: true
   linter: {}
+  minimap:
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+      selection: true
+      selectionDecorationsZIndex: 0
+      "split-diff": true
+      "split-diffDecorationsZIndex": 0
   pigments:
     extendAutocompleteToColorValue: true
     extendAutocompleteToVariables: true
     markerType: "square-dot"
   "seti-ui":
+    compactView: true
     displayIgnored: false
     themeColor: "Green"
   "split-diff":
@@ -131,6 +153,5 @@
       autoClose: true
   "tree-view":
     hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
